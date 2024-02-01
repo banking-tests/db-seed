@@ -2,11 +2,30 @@
   "name": "db-seeder",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node -r tsconfig-paths/register src/main.ts",
+    "start:dev": "nodemon --config nodemon.json",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@supercharge/promise-pool": "^3.1.1",
+    "@types/luxon": "^3.4.2",
+    "commander": "^11.1.0",
+    "dotenv": "^16.4.1",
+    "faker": "5.5.3",
+    "luxon": "^3.4.4",
+    "mongodb": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "20",
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.3.3"
+  }
 }

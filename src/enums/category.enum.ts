@@ -1,0 +1,16 @@
+export enum Category {
+  ONLINE_PLATFORMS_LEISURE = "Online Platforms & Leisure",
+  WITHDRAWAL_ATM = "Withdrawal & ATM",
+  BILLS_UTILITIES = "Bills & Utilities",
+  PERSONAL_OPPING = "Personal Shopping",
+  TRANSPORT_TRAVEL = "Transport & Travel",
+  HOME_LIFE = "Home & Life",
+  TRANSFERS = "Transfers",
+  TAXES = "Taxes",
+  CREDITS_LOANS = "Credits & Loans",
+  INCOME_PAYMENTS = "Income & Payments",
+  INVESTMENTS_SAVINGS = "Investments & Savings",
+  FOOD_GROCERIES = "Food & Groceries",
+  FEES_CHARGES = "Fees & Charges",
+  DEPOSITS = "Deposits",
+}
